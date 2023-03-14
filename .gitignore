@@ -1,4 +1,9 @@
+# dependecs
 node_modules
 build
 
+# enviroment
 .env
+
+# tests
+coverage

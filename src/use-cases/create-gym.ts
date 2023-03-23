@@ -1,6 +1,3 @@
-import { hash } from 'bcryptjs'
-import { UsersRepository } from '@/repositories/users-repository'
-import { UserAlreadyExistsError } from './erros/user-already-exists-error'
 import { Gym } from '@prisma/client'
 import { GymsRepository } from '@/repositories/gyms-repository'
 

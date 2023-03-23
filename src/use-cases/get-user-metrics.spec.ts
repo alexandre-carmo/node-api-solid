@@ -27,6 +27,6 @@ describe('Get User Metrics Use Case', () => {
       userId: 'user-01',
     })
 
-    expect(checkInsCount).toHaveLength(2)
+    expect(checkInsCount).toEqual(2)
   })
 })

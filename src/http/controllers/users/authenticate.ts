@@ -26,7 +26,7 @@ export async function authenticate(
     })
 
     // Create token user
-    const token = reply.jwtSign(
+    const token = await reply.jwtSign(
       {},
       {
         sign: {
